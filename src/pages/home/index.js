@@ -71,7 +71,7 @@ export function loadHome() {
 	const locationHeading = document.createElement('h2');
 	locationHeading.textContent = 'Our Location';
 	const locationAddress = document.createElement('p');
-	locationAddress.textContent = '123 Delicious St, Food City, FC 12345'; // Dummy address
+	locationAddress.textContent = 'Armenta St, Food City, San Pedro Sula, Cortes';
 
 	locationSection.appendChild(locationHeading);
 	locationSection.appendChild(locationAddress);
