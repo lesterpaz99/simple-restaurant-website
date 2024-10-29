@@ -1,3 +1,4 @@
+import { loadMenu } from '../menu';
 import './home.css';
 
 // Function to create the Home view content
@@ -24,7 +25,7 @@ export function loadHome() {
 	heroButton.classList.add('cta-button');
 	heroButton.onclick = function () {
 		// Logic to load the Menu view can be added here
-		alert('Loading Menu...'); // Replace with actual logic later
+		loadMenu();
 	};
 
 	// Append elements to heroSection
