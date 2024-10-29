@@ -1,7 +1,7 @@
 import './home.css';
 
 // Function to create the Home view content
-function loadHome() {
+export function loadHome() {
 	const content = document.getElementById('content');
 
 	// Clear the content first
@@ -46,8 +46,12 @@ function loadHome() {
 	hoursHeading.textContent = 'Hours of Operation';
 	const hoursList = document.createElement('ul');
 	const hoursData = [
-		'Monday - Friday: 11:00 AM - 10:00 PM',
-		'Saturday: 12:00 PM - 11:00 PM',
+		'Monday: 6am - 6pm',
+		'Tuesday: 6am - 6pm',
+		'Wednesday: 6am - 6pm',
+		'Thursday: 6am - 10pm',
+		'Friday: 6am - 10pm',
+		'Saturday: 8am - 10pm',
 		'Sunday: Closed',
 	];
 
@@ -83,4 +87,4 @@ function loadHome() {
 }
 
 // Call the loadHome function to display the Home view initially
-loadHome();
+// loadHome();
