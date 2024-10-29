@@ -86,6 +86,3 @@ export function loadHome() {
 	// Append homeContainer to content
 	content.appendChild(homeContainer);
 }
-
-// Call the loadHome function to display the Home view initially
-// loadHome();

@@ -5,6 +5,7 @@ import './styles/footer.css';
 import { loadHome } from './pages/home';
 import { showLoader, hideLoader } from './components/loader';
 import { loadMenu } from './pages/menu';
+import { loadContact } from './pages/contact';
 
 showLoader();
 loadHome();
@@ -22,4 +23,4 @@ const contactBtn = document.querySelector('#contact-btn');
 
 homeBtn.addEventListener('click', () => loadHome());
 menuBtn.addEventListener('click', () => loadMenu());
-// homeBtn.addEventListener('click', () => loadHome());
+contactBtn.addEventListener('click', () => loadContact());
